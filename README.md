@@ -1,6 +1,6 @@
 # freeCodeCamp: Responsive Web Design 🚀
 
-¡Hola! Soy **Emmanuel**, tengo 14 años y mi meta es convertirme en **Ingeniero Informático**. 
+(18/04/26) ¡Hola! Soy **Emmanuel**, tengo 14 años y mi meta es convertirme en **Ingeniero Informático**. 
 
 Este es mi primer repositorio donde guardaré los proyectos que realice para obtener mi certificación en freeCodeCamp.
 
