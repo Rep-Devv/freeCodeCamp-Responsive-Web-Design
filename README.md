@@ -1,6 +1,18 @@
-# freeCodeCamp-Responsive-Web-Design
-1er Repositorio
-<h1>Holaaa</h1>
-<p>Hola, mucho gusto, me llamo Emmanuel, tengo 14 años y estoy aprendiendo programación para ser un ingeniero informático.
-Actualmente estoy completando la certificación de Diseño Web de freeCodeCamp.
-Mis metas ahora mismo son aprender Python y JavaScript antes de entrar a la universidad</p>
+# freeCodeCamp: Responsive Web Design 🚀
+
+¡Hola! Soy **Emmanuel**, tengo 14 años y mi meta es convertirme en **Ingeniero Informático**. 
+
+Este es mi primer repositorio donde guardaré los proyectos que realice para obtener mi certificación en freeCodeCamp.
+
+### 🎯 Mis Objetivos actuales:
+- [ ] Completar la Certificación de Diseño Web Responsivo (HTML/CSS).
+- [ ] Aprender **JavaScript** (Lógica de programación).
+- [ ] Dominar **Python** antes de entrar a la universidad.
+
+### 🛠️ Proyectos de Certificación:
+*Aquí iré poniendo los links a mis proyectos terminados:*
+1. [ ] Página de Tributo
+2. [ ] Formulario de Encuesta
+3. [ ] Página de Producto
+4. [ ] Documentación Técnica
+5. [ ] Portafolio Personal
