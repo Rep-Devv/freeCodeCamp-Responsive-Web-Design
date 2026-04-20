@@ -1,57 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-   <meta charset="UTF-8">
-   <title>Curry Recipe</title>
-       <style>
-  body {
-    background-color: #fdf5e6; /* Un color crema suave como el arroz */
-    font-family: sans-serif;   /* Quita las letras con "patitas" y las hace modernas */
-    color: #4a3728;            /* Un café oscuro para que no sea negro puro */
-    max-width: 800px;          /* Hace que el texto no se estire por toda la pantalla */
-    margin: 0 auto;            /* Centra todo el contenido */
-    padding: 20px;
-  }
+<head>
+  <meta charset="UTF-8">
+  <title>Curry Recipe</title>
+  <style>
+    body {
+      background-color: #fdf5e6; /* Color crema suave */
+      font-family: sans-serif;
+      color: #4a3728;            /* Café oscuro */
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-  h1, h2 {
-    color: #d2691e;           /* Color naranja/curry para los títulos */
-    border-bottom: 2px solid #5DD48A;
-  }
+    h1, h2 {
+      color: #d2691e;           /* Naranja curry */
+      border-bottom: 2px solid #5DD48A; /* El verde menta que elegiste */
+    }
 
-  img {
-    width: 100%;               /* Hace que la imagen se ajuste al ancho de la página */
-    border-radius: 15px;       /* Le redondea las esquinas para que se vea moderna */
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.2); /* Le da una sombra elegante */
-  }
-</style>
+    img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    }
 
-  </head>
-  <body>
-    <h1>Curry</h1>
-    <p>This is my first interactive recipe page. I chose curry because it's a complex dish that allows me to organize a lot of information using ordered lists for the steps and unordered lists for the ingredients.</p>
-    <section>
+    /* Estilos del botón aprendidos con asistencia de IA */
+    .boton-like {
+      background-color: #d2691e;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 25px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+      display: block;
+      margin: 20px auto;
+    }
+
+    .boton-like:hover {
+      background-color: #5DD48A;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Curry</h1>
+  <p>This is my first interactive recipe page. I chose curry because it's a complex dish that allows me to organize a lot of information using ordered lists for the steps and unordered lists for the ingredients.</p>
+
+  <section>
     <h2>Ingredients</h2>
     <ul>
       <li>500g of chicken breast</li>
       <li>2 tablespoons of curry paste (red, green or yellow)</li>
       <li>1 can of coconut milk (400ml)</li>
       <li>1 diced onion</li>
-      <li>2 sliced ​​carrots</li>
+      <li>2 sliced carrots</li>
       <li>1 red pepper</li>
       <li>Oil, salt and pepper to taste</li>
-      </ul>
-      </section>
-      <section>
+    </ul>
+  </section>
+
+  <section>
     <h2>Instructions</h2>
     <ol>
-      <li><strong>Sauté:</strong> In a large frying pan with a little oil, brown the onion and chicken until well cooked..</li>
+      <li><strong>Sauté:</strong> In a large frying pan with a little oil, brown the onion and chicken until well cooked.</li>
       <li><strong>Spices:</strong> Add the curry paste and stir for a minute to release all its aroma.</li>
       <li><strong>Vegetables:</strong> Add the carrots and bell pepper. Cook for about 5 minutes over medium heat.</li>
       <li><strong>Liquids:</strong> Pour in the coconut milk and mix well. Let it simmer gently.</li>
       <li><strong>Reduction:</strong> Lower the heat and let it cook for 10 minutes until the sauce thickens slightly.</li>
       <li><strong>Serve:</strong> Serve with white rice and enjoy your creation.</li>
     </ol>
-      </section>
-    <img src="https://ariztia.com/wp-content/uploads/2023/11/pollo-al-curry.jpg" alt="plato de curry">
-    </body>
-    </html>
+  </section>
+
+  <img src="https://ariztia.com" alt="plato de curry">
+
+  <!-- Este botón lo aprendí a hacer con ayuda para entender el efecto hover -->
+  <button class="boton-like">¡Me encanta esta receta! ❤️</button>
+
+</body>
+</html>
